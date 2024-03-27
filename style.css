@@ -63,3 +63,22 @@ body{
 .login-btn:hover{
     background: #30438f
 }
+
+.image{
+    align-items: center;
+}
+
+.image img{
+    opacity: 50%;
+    width: 100%;
+    height: auto;
+}
+
+.image p{
+    color: #fff;
+    z-index: 1;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
